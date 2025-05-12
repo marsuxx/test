@@ -2,41 +2,59 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Bienvenue sur mon site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Mon Site</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            text-align: center;
         }
         header {
             background-color: #333;
             color: white;
-            padding: 20px 0;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
         }
         main {
-            padding: 40px 20px;
+            padding: 40px;
+            text-align: center;
         }
         footer {
-            background-color: #333;
+            background-color: #222;
             color: white;
-            padding: 10px 0;
+            text-align: center;
+            padding: 10px;
             position: fixed;
-            bottom: 0;
             width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Bienvenue sur mon site</h1>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">À propos</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
-<header>
-    <h1>Bienvenue sur mon site</h1>
-</header>
-<footer>
-    &copy; <?php echo date("Y"); ?> MonSite - Tous droits réservés.
-</footer>
+    <main>
+        <h2>Page d'accueil</h2>
+        <p>Ceci est la page d'accueil de votre site PHP.</p>
+        <p>Vous pouvez personnaliser ce contenu en fonction de vos besoins.</p>
+    </main>
 
+    <footer>
+        &copy; <?php echo date("Y"); ?> Mon Site. Tous droits réservés.
+    </footer>
 </body>
 </html>
