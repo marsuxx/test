@@ -49,8 +49,8 @@
 
     <main>
         <h2>Page d'accueil</h2>
-        <p>Ceci est la page d'accueil de votre site PHP.</p>
-        <p>Vous pouvez personnaliser ce contenu en fonction de vos besoins.</p>
+        <p>oui.</p>
+        <p>non?</p>
     </main>
 
     <footer>
